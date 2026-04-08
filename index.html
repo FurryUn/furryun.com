@@ -1,10 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
+    <meta charset="UTF-8">
     <title>Furry Union</title>
+
+    <!-- Подключаем иконки -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+
+            /* Фон */
+            background: url("https://images.unsplash.com/photo-1519681393784-d120267933ba") no-repeat center center/cover;
+
+            /* Центрирование */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 40px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .socials a {
+            margin: 0 10px;
+            color: white;
+            font-size: 30px;
+            transition: 0.3s;
+        }
+
+        .socials a:hover {
+            color: #ffcc00;
+        }
+    </style>
 </head>
 <body>
-    <h1>Приветствуем!</h1>
-    <p>Это Пушистый союз!</p>
+
+<div class="container">
+    <h1>Furry Union</h1>
+    <p>Добро пожаловать 🐾</p>
+
+    <div class="socials">
+        <a href="https://t.me/yourlink" target="_blank">
+            <i class="fab fa-telegram"></i>
+        </a>
+
+        <a href="https://twitter.com/yourlink" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+
+        <a href="https://youtube.com/yourlink" target="_blank">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+</div>
+
 </body>
 </html>
