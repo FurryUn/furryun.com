@@ -102,14 +102,19 @@ iframe {
 footer {
     background: #111;
     color: white;
-    padding: 100px;
+    padding: 50px;
     text-align: center;
 }
 
 footer a {
-    margin: 50px;
+    margin: 10px;
     color: white;
-    font-size: 30px;
+    font-size: 50px; /* было ~20 → стало больше */
+    transition: 0.3s;
+}
+
+footer a:hover {
+    transform: scale(1.2);
 }
 </style>
 </head>
