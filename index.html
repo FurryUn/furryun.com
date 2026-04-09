@@ -75,12 +75,16 @@ iframe {
     position: fixed;
     bottom: 20px;
     right: 20px;
+
     background: orange;
     border: none;
-    padding: 15px;
-    border-radius: 50%;
-    font-size: 20px;
+    padding: 12px 18px;
+
+    border-radius: 12px; /* ← вот это вместо круга */
+    font-size: 16px;
     cursor: pointer;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
 /* 💰 Попап */
@@ -121,10 +125,18 @@ footer a {
 
 <!-- 🖼 Главный экран -->
 <div class="hero">
-    <div class="box">
-        <h2>Добро пожаловать</h2>
-        <p>Объединяем фурри сообщество 🐾</p>
+  <div class="box">
+    <h1>Добро пожаловать в Furry Union</h1>
+    <p>Объединяем сообщество и проекты 🐾</p>
+    <p>Добавляйте нас в закладки! Сайт будет расти и меняться вместе с нами!</p>
+
+    <!-- Соцсети ВНУТРИ центра -->
+    <div class="socials big">
+      <a href="https://t.me/furryun" target="_blank"><i class="fab fa-telegram"></i></a>
+      <a href="https://x.com/furry_union" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://youtube.com/@furry_union" target="_blank"><i class="fab fa-youtube"></i></a>
     </div>
+  </div>
 </div>
 
 <!-- 📦 Описание -->
