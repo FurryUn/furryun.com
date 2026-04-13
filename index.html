@@ -89,6 +89,27 @@ iframe {
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
+    /*[button] ниже фигня вроде стиль кнопки*/
+
+    .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+
+    background: orange;
+    color: black;
+    text-decoration: none;
+
+    border-radius: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ffcc00;
+    transform: scale(1.05);
+}
+
 /* 💰 Попап */
 .donate-popup {
     display: none;
@@ -171,8 +192,25 @@ footer a:hover {
     <p>Мы совершенно точно делаем что-то важное! OwO !</p>
     <p>Объединяем фурри сообщества и направляем их членов на созидательный лад!</p>
     <p>Когда-то здесь была ссылка на научные проекты вроде BOINC, но они не работают</p> <!-- 📦 Описание <a href="https://stats.foldingathome.org/team/1068080" target="_blank">Скоро здесь будет список с дружественными ресурсами!</a> -->
-    <p>Но скоро здесь будет список с дружественными ресурсами!</p> 
+    <p>Зато теперь есть это - <a href="resources.html">список с дружественными ресурсами!</a></p> 
 
+    
+
+    <a href="resources.html" style="
+    display:inline-block;
+    padding:10px 20px;
+    background:orange;
+    color:black;
+    border-radius:10px;
+    text-decoration:none;
+">
+    Наши ресурсы
+</a>
+    <a href="resources.html" class="btn">
+  Перейти к ресурсам
+</a>
+
+    
 <!-- 🎥 Видео -->
 <div class="section">
     <h2>Последнее видео</h2>
